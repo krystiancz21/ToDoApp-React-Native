@@ -33,7 +33,6 @@ export default function App() {
               )
             })
           }
-
         </View>
 
         <KeyboardAvoidingView behavior={Platform.OS === "ios" ? "padding" : "height"} style={styles.writeTaskWrapper}>
